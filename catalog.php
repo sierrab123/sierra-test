@@ -12,11 +12,11 @@
 ?>
 
 <?php shopp( 'storefront.catalog-products' ); ?>
-
+<?php
 /**
 **added by sb
 **/
-
+?>
 <?php shopp('collection.description') ?>
 
 <?php if ( shopp( 'collection.hasproducts', 'load=coverimages' ) ) : ?>
